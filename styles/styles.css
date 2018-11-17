@@ -2,7 +2,7 @@ html, body{
     
     margin: 0;
     padding: 0;
-    background-color: #F3F3F3;
+    background-color: #F9F9F9;
 }
 
 
@@ -24,9 +24,7 @@ body
 
 
 
-#footer, #body, #hLeft, #bLeft {
-    clear: left;
-}
+
 
 #header{
     
@@ -80,7 +78,13 @@ margin-right: 1%;
     
 }
 
-#foot, #header{
+#foot{
     
-    background-color: #F9F9F9;
+    background-color: #F0F0F0;
 }
+
+#header{
+    
+    background-color: navy;
+}
+

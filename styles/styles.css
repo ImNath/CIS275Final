@@ -1,7 +1,7 @@
 *{
     
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
 
     
 }
@@ -18,29 +18,37 @@
     
     background-color: lightgray;;
     overflow: hidden;
+<<<<<<< HEAD
     height: 20%;
     display: block;
   
     padding-top: 1em;
         box-sizing: border-box;
 
+=======
+    height: 75px;
+    display: block;
+    position: sticky;
+    top: 0;
+>>>>>>> parent of 2021e18... updated layout
 }
 .headerLeft{
     width: 50%;
+    border: 1px;
     float: left;
     box-sizing: border-box;
-    padding: 0px;
-   
-  
+    height: 10%;
     
 }
 
 .headerRight{
     
     float: right;
+        border: 1px;
     text-align: right;
     width: 50%;
     box-sizing: border-box;
+<<<<<<< HEAD
     padding: 0px;
     
   
@@ -77,11 +85,14 @@
     float: right;
 
   
+=======
+    height: 10%;
+>>>>>>> parent of 2021e18... updated layout
 
 }
 
 .headerRight ul li{
-
+    
     display: inline;
 
 }
@@ -115,10 +126,13 @@ body{
     margin: 0 auto;
   
     height:  100%;
+<<<<<<< HEAD
     padding-left: 5%;
      padding-right: 5%;
     padding-top: 3%;
      padding-bottom: 3%;
+=======
+>>>>>>> parent of 2021e18... updated layout
     
 }
 
@@ -129,9 +143,16 @@ body{
     bottom: 0;
     display: block;
     background-color: lightgray;
+<<<<<<< HEAD
         box-sizing: border-box;
 
    
+=======
+    position: sticky;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+>>>>>>> parent of 2021e18... updated layout
     
 }
 

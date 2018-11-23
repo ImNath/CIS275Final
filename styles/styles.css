@@ -1,90 +1,86 @@
-html, body{
+*{
     
-    margin: 0;
+    margin:0;
     padding: 0;
-    background-color: #F9F9F9;
+
+    
 }
 
-
-
-body
-#header, #footer, #body, #bLeft, #bRight, #hLeft, #hRight {
-    float: left;
-}
-#header, #footer, #body{
-    width: 100%;
-    max-width: 100%;
-}
-
-#body{
-    width: 98%;
-    max-width: 98%;
+#titleSpan{
+    
+    font-size: 40px;
+    padding-left: 2%;
     
 }
 
 
-
-
-
-#header{
+header{
     
-    height: 6em;
-  
-    position: fixed;
+    background-color: lightgray;;
+    overflow: hidden;
+    height: 75px;
+    display: block;
+    position: sticky;
     top: 0;
-        box-shadow: 0px -33px 88px 1px black;
+}
+.headerLeft{
+    width: 50%;
+    border: 1px;
+    float: left;
+    box-sizing: border-box;
+    height: 10%;
+    
+}
 
+.headerRight{
+    
+    float: right;
+        border: 1px;
+    text-align: right;
+    width: 50%;
+    box-sizing: border-box;
+    height: 10%;
 
 }
 
-#body{
+.headerRight ul li{
     
-    margin-top: 8em;
-    padding-left: 1%;
-    padding-right: 1%;
+    display: inline;
+
 }
-    
 
-
-#foot{
+.headerRight ul{
     
-    height: 1.5em;
-   
-    position: fixed;
+    padding-right: 2%;
+
+}
+body{
+    
+    display: block;
+    height: 100%;
+    border: 1px red solid;
+    
+}
+.container{
+    width: 60%;
+    overflow: hidden;
+    background-color: red;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    
+    height:  100%;
+    
+}
+
+footer{
+    display: block;
+    background-color: lightgray;
+    position: sticky;
     bottom: 0;
+    height: 45px;
     width: 100%;
-  
-}
-
-#bLeft, hLeft{
-
-margin-right: 1%;
-  
-
     
-}
-
-#bRight, #hRight{
-    
-    margin-left: 1%;
-
-    
-}
-
-#bLeft, #bRight, #hLeft, #hRight {
-    
-    
-    width: 49%;
-    
-}
-
-#foot{
-    
-    background-color: #F0F0F0;
-}
-
-#header{
-    
-    background-color: navy;
 }
 

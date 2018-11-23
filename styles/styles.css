@@ -1,7 +1,7 @@
 *{
     
-    margin:0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
 
     
 }
@@ -18,33 +18,68 @@ header{
     
     background-color: lightgray;;
     overflow: hidden;
-    height: 75px;
+    height: auto;
     display: block;
     position: sticky;
     top: 0;
+    padding-top: 1em;
 }
 .headerLeft{
     width: 50%;
-    border: 1px;
     float: left;
     box-sizing: border-box;
-    height: 10%;
+    padding: 0px;
+   
+  
     
 }
 
 .headerRight{
     
     float: right;
-        border: 1px;
     text-align: right;
     width: 50%;
     box-sizing: border-box;
-    height: 10%;
+    padding: 0px;
+    
+  
+  
+
+}
+
+.contLeft{
+    width: 66%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+   
+  
+    
+}
+
+.containerRight{
+    
+    float: right;
+
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0px;
+    
+  
+  
+
+}
+
+.containerRight ul{
+    
+    float: right;
+
+  
 
 }
 
 .headerRight ul li{
-    
+
     display: inline;
 
 }
@@ -71,7 +106,10 @@ body{
     border-right: 1px black solid;
     
     height:  100%;
-    
+    padding-left: 5%;
+     padding-right: 5%;
+    padding-top: 3%;
+     padding-bottom: 3%;
 }
 
 footer{
@@ -79,7 +117,7 @@ footer{
     background-color: lightgray;
     position: sticky;
     bottom: 0;
-    height: 45px;
+    height: auto;
     width: 100%;
     
 }

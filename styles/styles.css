@@ -210,3 +210,29 @@ p, ul{
     background-color: white;
     display: block;
 }
+
+
+.rightBodyHeader{
+    float: right;
+    text-align: right;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0px;
+   
+}
+.leftBodyHeader{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0px;
+     font-size: 2em;
+    font-weight: bold;
+}
+.resumeBody{
+    clear: both;
+}
+
+.boldUnder{
+    font-weight: bold;
+    text-decoration: underline; 
+}

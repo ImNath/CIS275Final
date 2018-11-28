@@ -109,7 +109,7 @@ body{
     
     display: block;
     height: 100%;
-    border: 1px red solid;
+  
     background-color: darkgrey;;
     
 }
@@ -148,7 +148,7 @@ footer{
     border-color: lightgray;
     border-style: solid;
     padding: 1em;
-    margin-bottom: 2em;
+    
 }
 .contLeft{
     padding: 2em;
@@ -170,7 +170,7 @@ p, ul{
 
 }
 .containerRight li {
-    padding-bottom: .25em;
+    padding-bottom: 1em;
 
 }
 .blogPosts h3{
@@ -196,4 +196,12 @@ p, ul{
     float:left;
     list-style: none;
 
+}
+
+.targetPixel
+{
+    height:3em;
+    width: 1px;
+    background-color: white;
+    display: block;
 }

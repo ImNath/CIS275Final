@@ -2,8 +2,16 @@
     
     margin:0px;
     padding: 0px;
+    
 
     
+}
+
+
+
+a{
+    
+    color: teal;
 }
 
 #titleSpan{
@@ -52,6 +60,9 @@ header{
     float: left;
     box-sizing: border-box;
     padding: 0px;
+    display: block;
+      overflow-wrap: break-word;
+
    
   
     
@@ -64,7 +75,10 @@ header{
     width: 20%;
     box-sizing: border-box;
     padding: 0px;
-    
+        display: block;
+     overflow-wrap: break-word;
+
+
   
   
 
@@ -73,6 +87,8 @@ header{
 .containerRight ul{
     
     float: right;
+      overflow-wrap: break-word;
+
 
   
 
@@ -94,16 +110,15 @@ body{
     display: block;
     height: 100%;
     border: 1px red solid;
+    background-color: darkgrey;;
     
 }
 .container{
     width: 60%;
     overflow: hidden;
-    background-color: red;
     height: 100%;
     margin: 0 auto;
-    border-left: 1px black solid;
-    border-right: 1px black solid;
+    background-color: white;
     
     height:  100%;
     padding-left: 5%;
@@ -120,4 +135,65 @@ footer{
     height: auto;
     width: 100%;
     
+}
+
+.bold{
+    
+    font-weight: bold;
+}
+
+.blogPosts{
+    
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+.contLeft{
+    padding: 2em;
+}
+.blogPosts ul{
+    
+    padding-left: 1.3em;
+}
+
+p, ul{
+    font-family: sans-serif;
+    line-height: 1.45;
+    padding-top: .25em;
+    padding-bottom: 1em;
+}
+
+.contLeft li {
+    padding-bottom: .75em;
+
+}
+.containerRight li {
+    padding-bottom: .25em;
+
+}
+.blogPosts h3{
+    width: 100%;
+    border: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    font-family: serif;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    margin-bottom: .75em;
+}
+
+.containerRight{
+    
+     padding-top: 2em;
+}
+
+.containerRight ul{
+    padding: 0;
+    width: 100%;
+    margin-top: 1em;
+    float:left;
+    list-style: none;
+
 }

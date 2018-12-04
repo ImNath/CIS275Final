@@ -82,6 +82,7 @@ header{
     padding: 0px;
         display: block;
      overflow-wrap: break-word;
+    
 
 
   
@@ -218,6 +219,7 @@ p, ul{
     width: 50%;
     box-sizing: border-box;
     padding: 0px;
+    
    
 }
 .leftBodyHeader{
@@ -229,10 +231,118 @@ p, ul{
     font-weight: bold;
 }
 .resumeBody{
+    font-family: sans-serif;
     clear: both;
+    display: block;
 }
+
+.resumeBold{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.resumeBold2{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+   
+}
+
 
 .boldUnder{
     font-weight: bold;
     text-decoration: underline; 
+}
+
+.spanBlock {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    display: block;
+}
+
+.headerText {
+    
+    font-size: 1.5em;
+    margin-bottom: .5em;
+    display: block;
+    font-family: serif;
+}
+.jobHistory, .jobHistory ul {
+    padding-left: 2em;
+    display: block;
+    background-color: white;
+}
+
+.blogPosts img {
+
+
+   
+max-height: 20em;
+    max-width: 100%;
+
+    
+}
+
+.blogPosts img:hover {
+max-height: 100%;
+    max-width: 100%; 
+    height: 100%;
+    width: 100%;
+    clear: right;
+    
+}
+
+.blogBoxIMG{
+        text-align: center;
+}
+.blogBoxIMG h2, .blogBoxIMG h3{
+        text-align: left;
+}
+
+.profileImage{
+    width: 100%;
+    text-align: center;
+   
+}
+
+.aboutImage{
+    width: 40%;
+    text-align: center;
+   
+}
+
+#obj:target:before{
+content:"";
+display:block;
+height:90px;
+margin:-90px 0 0;
+}
+
+#contact:target:before{
+content:"";
+display:block;
+height:200px;
+margin:-200px 0 0;
+}
+
+#skills:target:before{
+content:"";
+display:block;
+height:90px;
+margin:-90px 0 0;
+}
+#contact:target:before{
+content:"";
+display:block;
+height:90px;
+margin:-90px 0 0;
+}
+#education:target:before{
+content:"";
+display:block;
+height:90px;
+margin:-90px 0 0;
 }

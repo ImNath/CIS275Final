@@ -12,6 +12,7 @@
 a{
     
     color: teal;
+    text-decoration:none;
 }
 
 a:visited {
